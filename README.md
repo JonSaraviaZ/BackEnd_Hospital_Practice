@@ -48,23 +48,18 @@ O si usas un IDE como IntelliJ o VSCode, simplemente ejecuta la clase HospitalVm
 Puedes utilizar Postman o cualquier otra herramienta de cliente HTTP para probar los endpoints, por ejemplo:
 
 
-GET /api/v1/pacientes → Lista todos los pacientes.
-
-POST /api/v1/pacientes → Crea un nuevo paciente.
-
-DELETE /api/v1/pacientes/{id} → Elimina un paciente por su ID (retorna "Paciente eliminado" si es exitoso).
-
-PUT /api/v1/pacientes/{id} → Actualiza los datos de un paciente.
+- GET /api/v1/pacientes → Lista todos los pacientes.
+- POST /api/v1/pacientes → Crea un nuevo paciente.
+- DELETE /api/v1/pacientes/{id} → Elimina un paciente por su ID (retorna "Paciente eliminado" si es exitoso).
+- PUT /api/v1/pacientes/{id} → Actualiza los datos de un paciente.
 
 
 
 ##📌 Notas adicionales
 
-La base de datos se genera automáticamente al iniciar el proyecto gracias a la configuración de JPA.
-
-Recuerda usar el header Content-Type: application/json al enviar datos en POST o PUT.
-
-Este proyecto es ideal como base para agregar más funcionalidades, como seguridad, historial médico, o autenticación de usuarios.
+- La base de datos se genera automáticamente al iniciar el proyecto gracias a la configuración de JPA.
+- Recuerda usar el header Content-Type: application/json al enviar datos en POST o PUT.
+- Este proyecto es ideal como base para agregar más funcionalidades, como seguridad, historial médico, o autenticación de usuarios.
 
 
 ## Estructura del Proyecto
